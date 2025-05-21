@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>강의 추가</title>
+</head>
+<body>
+  <h2>강의 추가 (관리자 전용)</h2>
+  <form method="POST" action="/admin/add-course">
+    <input type="text" name="targetUser" placeholder="학생 아이디" required>
+    <input type="text" name="courseName" placeholder="강의 제목" required>
+    <button type="submit">강의 추가</button>
+  </form>
+<hr>
+<h2>강의 삭제</h2>
+<form method="POST" action="/admin/delete-course">
+  <input type="text" name="targetUser" placeholder="학생 아이디" required>
+  <input type="text" name="courseName" placeholder="삭제할 강의 제목" required>
+  <button type="submit">강의 삭제</button>
+</form>
+<hr>
+<form method="POST" action="/logout">
+  <button type="submit">로그아웃</button>
+</form>
+</body>
+</html>

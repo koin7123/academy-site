@@ -1,0 +1,17 @@
+[
+  {
+    "username": "송인규",
+    "password": "$2b$10$Zb3XUU2ejPKps/FQDVdQRe4b8GK8hVNF/crS84r2M2N1QdXP/TvyC",
+    "isAdmin": false,
+    "courses": [
+      "기초 수학",
+      "응용 문제풀이"
+    ]
+  },
+  {
+    "username": "admin",
+    "password": "$2b$10$hdtyJVW2KoW..j68eV6oAumUVtkthUvgPxTCk46dpci9NV6il4vxm",
+    "isAdmin": true,
+    "courses": []
+  }
+]
